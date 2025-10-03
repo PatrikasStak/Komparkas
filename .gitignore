@@ -137,3 +137,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local environment overrides
+*.local
+
+# Logs for PM2 or other process managers
+pmlog.json
